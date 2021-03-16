@@ -1,0 +1,13 @@
+.about-container{
+    margin: 5%;
+    padding: 1%;
+    float: left;
+    background-color: whitesmoke;
+    height: 95%;
+    width: 90%;
+}
+
+.image {
+    height: 500px;
+    float: left;
+}

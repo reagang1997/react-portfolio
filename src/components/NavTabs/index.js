@@ -8,7 +8,7 @@ function NavTabs() {
   const location = useLocation();
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-danger">
       <a className="navbar-brand" href="#">Reagan Grunwald</a>
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -17,7 +17,7 @@ function NavTabs() {
       <div className="collapse navbar-collapse justify-content-end">
         <ul className="navbar-nav">
           <li className="nav-item">
-            <Link to="/aboutMe" className={location.pathname === "/aboutMe" ? "nav-link active" : "nav-link"}>
+            <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
               About Me
             </Link>
           </li>
