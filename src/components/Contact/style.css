@@ -1,0 +1,17 @@
+.contact-container{
+    margin: auto;
+    width: 75%;
+    margin-top: 50px; 
+}
+
+label{
+    float: left;
+}
+
+.input{
+    width: 400px
+}
+
+button{
+    float: left;
+}

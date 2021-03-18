@@ -1,0 +1,10 @@
+.port-container{
+    margin: 5%;
+    background-color: whitesmoke;
+    width: 90%;
+    height: 90%;
+}
+
+.port-container h1{
+    margin: auto;
+}

@@ -1,0 +1,22 @@
+img{
+    height: 350px;
+    margin: 1%; 
+   margin-left: 5%; 
+   margin-right: 5%;
+   float:left;
+}
+
+h2{
+    margin-left: 225px;
+
+}
+.header{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#repo, #deploy{
+    margin: auto;
+    margin-top: 25px;
+}
+

@@ -1,3 +1,10 @@
+.bio{
+    margin-left: 20px;
+    margin-top: 20px;
+    float: left,
+
+}
+
 .about-container{
     margin: 5%;
     padding: 1%;
@@ -11,3 +18,4 @@
     height: 500px;
     float: left;
 }
+
