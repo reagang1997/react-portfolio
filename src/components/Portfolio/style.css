@@ -6,5 +6,26 @@
 }
 
 .port-container h1{
+    width: fit-content;
     margin: auto;
+    margin-top: 25px;
 }
+
+
+
+@media only screen and (max-width: 500px){
+
+    .myimg{
+      height: 195px;
+      margin: 0 auto;
+    }
+
+    .port-container{
+        
+        width: fit-content;
+        margin: 0 auto
+
+        
+    }
+  
+  }

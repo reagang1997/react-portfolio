@@ -19,3 +19,45 @@
     float: left;
 }
 
+#linked-in{
+    background-color: blue;
+}
+
+#git{
+    background-color: black;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+.mybtn{
+    width: 10%;
+    
+}
+
+
+
+@media only screen and (max-width: 500px){
+
+    .image{
+        height: 300px;
+        margin-left: 23%;
+      }
+
+    .about-container{
+        margin: 0;
+        width: 100%;
+    }
+    .bio{
+        margin: 0;
+    }
+
+    .mybtn{
+        width: 70%;
+        margin-top: 10px;
+    }
+
+   
+    
+  
+  }
+

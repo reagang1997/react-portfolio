@@ -11,9 +11,9 @@ function App() {
     <Router>
       <div className='App'>
       <NavTabs/>
-      <Route exact path="/" component={AboutMe} />
-      <Route exact path="/portfolio" component={Portfolio} />
-      <Route exact path="/contact" component={Contact} />
+      <Route exact path="/react-portfolio/" component={AboutMe} />
+      <Route exact path="/react-portfolio/portfolio" component={Portfolio} />
+      <Route exact path="/react-portfolio/contact" component={Contact} />
 
       </div>
 
