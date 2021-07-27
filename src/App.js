@@ -5,6 +5,7 @@ import NavTabs from './components/NavTabs';
 import AboutMe from './components/AboutMe';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact'
+import Resume from './components/Resume';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Route exact path="/react-portfolio/" component={AboutMe} />
       <Route exact path="/react-portfolio/portfolio" component={Portfolio} />
       <Route exact path="/react-portfolio/contact" component={Contact} />
+      <Route exact path="/react-portfolio/resume" component={Resume} />
 
       </div>
 

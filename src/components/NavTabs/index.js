@@ -19,6 +19,7 @@ function NavTabs() {
         <Nav.Link onClick={() => history.push('/react-portfolio')}>About Me</Nav.Link>
 
           <Nav.Link onClick={() => history.push('/react-portfolio/portfolio')}>Projects</Nav.Link>
+          <Nav.Link onClick={() => history.push('/react-portfolio/resume')}>Resume</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
